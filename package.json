@@ -1,0 +1,31 @@
+{
+    "name": "agilebuy_groupproject",
+    "version": "1.0.0",
+    "description": "group project",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/frzn1717/AgileBuy_GroupProject.git"
+    },
+    "keywords": [
+        "ejs",
+        "express",
+        "COMP229.005",
+        "NodeJS",
+        "MongoDB",
+        "MEAN"
+    ],
+    "author": "Farzana, Eddi, Meysam, Rushi, Arvin, Natoya",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/frzn1717/AgileBuy_GroupProject/issues"
+    },
+    "homepage": "https://github.com/frzn1717/AgileBuy_GroupProject#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-generator": "^4.16.1"
+    }
+}
