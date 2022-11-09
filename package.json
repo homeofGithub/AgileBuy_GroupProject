@@ -1,31 +1,39 @@
 {
-    "name": "agilebuy_groupproject",
+    "name": "agilebuy-groupproject",
     "version": "1.0.0",
-    "description": "group project",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "private": true,
+    "description": "COMP 229, sec 005, Group Project",
+    "devDependencies": {},
     "repository": {
         "type": "git",
         "url": "git+https://github.com/frzn1717/AgileBuy_GroupProject.git"
     },
     "keywords": [
         "ejs",
+        "MEAN",
+        "COMP229",
         "express",
-        "COMP229.005",
-        "NodeJS",
-        "MongoDB",
-        "MEAN"
+        "nodeJS",
+        "express",
+        "group",
+        "project"
     ],
-    "author": "Farzana, Eddi, Meysam, Rushi, Arvin, Natoya",
+    "author": "Farzana, Eddi, Arvin,Meysam,Rushi, Natoya",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/frzn1717/AgileBuy_GroupProject/issues"
     },
     "homepage": "https://github.com/frzn1717/AgileBuy_GroupProject#readme",
+    "scripts": {
+        "start": "node ./server",
+        "test": "echo\"Error: no test specified\" && exit 1"
+    },
     "dependencies": {
-        "express": "^4.18.2",
-        "express-generator": "^4.16.1"
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "ejs": "~2.6.1",
+        "express": "~4.16.1",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1"
     }
 }
